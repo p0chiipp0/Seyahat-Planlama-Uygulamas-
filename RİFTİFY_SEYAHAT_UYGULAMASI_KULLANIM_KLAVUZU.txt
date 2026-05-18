@@ -1,0 +1,141 @@
+RIFTIFY - KULLANIM KILAVUZU
+============================
+
+Sayın Hocam,
+
+Bu proje, Python ve Tkinter kullanılarak geliştirilmiş kapsamlı bir seyahat planlama uygulamasıdır. Uygulama artık "Riftify" adıyla sunulmaktadır. Görsel kimliği koyu tema, güçlü harita odağı, rota planlama akışı ve modern seyahat paneli üzerine kurulmuştur.
+
+Projenin amacı yalnızca basit bir rota listesi göstermek değildir. Riftify; kullanıcı hesabı, dünya haritası, ülke ve il/bölge seçimi, turistik yer keşfi, rota oluşturma, otel ve ulaşım seçimi, bütçe kontrolü, yorum sistemi ve rapor alma gibi birçok parçayı tek uygulamada birleştirir.
+
+GİRİŞ BİLGİLERİ
+---------------
+Demo hesap:
+E-posta: hira@gmail.com
+Şifre: 123
+
+Yeni hesap da açılabilir. Yeni açılan hesaplar boş veriyle başlar. Böylece demo hesabındaki örnek rotalar ile yeni kullanıcının kendi verileri birbirine karışmaz.
+
+ÇALIŞTIRMA
+----------
+1. Proje klasörünü açın.
+2. main.py dosyasını çalıştırın.
+
+Komut:
+python main.py
+
+Ek paket gerektirmez. Uygulama standart Python arayüz kütüphanesi Tkinter ile hazırlanmıştır.
+
+ANA ÖZELLİKLER
+--------------
+1. Kullanıcı Sistemi
+- Demo hesap ile giriş yapılabilir.
+- Yeni hesap açılabilir.
+- Aynı e-posta ile tekrar hesap açılamaz.
+- Aynı isim ve soy isimle tekrar hesap açılması engellenir.
+- Sağ üstte hesap menüsü vardır.
+- Şifre değiştirilebilir.
+- Çıkış yapılabilir.
+- Her kullanıcının verisi ayrı tutulur.
+
+2. Ana Menü
+- Rotalar, rezervasyonlar, bütçe ve genel seyahat durumu özetlenir.
+- Harita, rota oluşturma ve popüler yerler gibi temel bölümlere hızlı erişim sağlar.
+- Arayüz koyu tema ve yol/keşif hissi verecek şekilde tasarlanmıştır.
+
+3. Dünya Haritası
+Riftify'ın en güçlü bölümlerinden biri harita ekranıdır.
+- Dünya haritası interaktif olarak açılır.
+- Ülkelere tıklanabilir.
+- Seçilen ülke ekrana odaklanır.
+- Ülkenin il/eyalet/bölge sınırları gösterilir.
+- Sağ panelden il/bölge seçilebilir.
+- Seçilen il/bölge için bilgi kartı açılır.
+- Bilgi kartında nüfus, mahalle/bölge, posta kodu, ülke, alan kodu, en alçak nokta ve İGE gibi bilgiler gösterilir.
+- Harita hızlı, anlaşılır ve sunum için güçlü bir görsel merkez olacak şekilde düzenlenmiştir.
+
+4. İl/Bölge Turistik Yerleri
+- Haritada seçilen il/bölge için "Turistik Yerler" açılabilir.
+- Seçili bölgeye göre 10 popüler gezi önerisi listelenir.
+- Her önerinin açıklaması, puanı ve detay ekranı vardır.
+- Detay ekranından doğrudan rota oluşturma sayfasına geçilebilir.
+
+5. Popüler Turistik Yerler
+- Dünya üzerindeki ünlü turistik yerler görsellerle listelenir.
+- Her popüler yerin fotoğrafı, kısa tarihçesi, otel önerileri ve bugünün hava durumu gösterilir.
+- Ziyaretçi yorumları bulunur.
+- Yorumlarda olumlu ve olumsuz görüşler birlikte gösterilerek daha gerçekçi bir deneyim sağlanır.
+- Popüler yerden "Rotaya Ekle" denildiğinde doğrudan rota oluşturma ekranına geçilir.
+
+6. Rota Oluşturma
+- Çıkış ülkesi seçilir.
+- Çıkış ili/bölgesi seçilir.
+- Varış ülkesi seçilir.
+- Varış ili/bölgesi seçilir.
+- Gidiş ve dönüş tarihi mini takvimden seçilir.
+- Dönüş tarihi gidişten önce olamaz.
+- Geçmiş tarihe rota oluşturulamaz.
+- Otel seçimi yapılabilir.
+- Ulaşım tipi seçilebilir: Araba, Otobüs veya Uçak.
+- Uçak ve otobüs için firma seçenekleri gösterilir.
+- Araba seçilirse mesafe, süre, benzin ve gişe tahmini hesaplanır.
+- Deniz aşırı veya farklı kıta rotalarında araba ve otobüs engellenir; uçak seçilmesi istenir.
+- Toplam tahmini masraf hesaplanır.
+- Not alanı ile kullanıcı gezi planına açıklama ekleyebilir.
+
+7. Bütçe Sistemi
+- Kullanıcı toplam bütçesini girer.
+- Rota planlarken seçilen otel ve ulaşım maliyetleri bu bütçeyle karşılaştırılır.
+- Bütçe aşılırsa kullanıcıya "Bütçenizi artırın veya daha ekonomik seçim yapın" uyarısı gösterilir.
+- Bu yapı, kullanıcının plansız harcama yapmasını engellemek için eklenmiştir.
+
+8. Rotalar
+- Oluşturulan rotalar listelenir.
+- Rota detayı açılabilir.
+- Otomatik özet alınabilir.
+- TXT rapor oluşturulabilir.
+- Rota tamamlandı olarak işaretlenebilir.
+- Eğer rota popüler yerlerden biriyle ilişkiliyse, rota tamamlandığında yorum yazma ekranı açılır.
+
+9. Yorum Sistemi
+- Popüler yerlerde örnek ziyaretçi yorumları vardır.
+- Bazı kullanıcılar yüksek puan verirken bazıları kalabalık, fiyat veya ulaşım gibi nedenlerle düşük puan verebilir.
+- Kullanıcı bir popüler yeri rota olarak tamamladıktan sonra yorum yazabilir.
+- Yorumlar kullanıcının kendi veri dosyasına kaydedilir.
+
+10. Seyahat Araçları
+Araçlar bölümü sadeleştirilmiştir. Gerçekten gerekli olan yardımcı ekranlar bırakılmıştır:
+- Bütçe
+- Rezervasyon
+- Valiz Listesi
+- Belge Kasası
+- Acil Bilgiler
+
+PROJEDE KULLANILAN TEKNOLOJİLER
+-------------------------------
+- Python
+- Tkinter
+- JSON veri saklama
+- Nesne tabanlı programlama
+- Dosya tabanlı kullanıcı/veri ayrımı
+- Harita ve rota odaklı arayüz tasarımı
+
+SUNUM İÇİN ÖNERİLEN AKIŞ
+------------------------
+1. Demo hesapla giriş yapın.
+2. Harita sayfasına girin.
+3. Bir ülkeye tıklayın.
+4. Bir il/bölge seçin.
+5. Bilgi kartını ve turistik yerler ekranını gösterin.
+6. Bir turistik yerden rota oluşturma ekranına geçin.
+7. Çıkış ili, varış ili, tarih, otel ve ulaşım seçin.
+8. Toplam masraf ve bütçe uyarısını gösterin.
+9. Rotayı kaydedin.
+10. Rotalar ekranında TXT rapor ve Tamamla butonunu gösterin.
+11. Popüler yer yorum sistemini gösterin.
+
+GENEL DEĞERLENDİRME
+-------------------
+Riftify; giriş sistemi, harita etkileşimi, rota planlama, bütçe kontrolü, popüler yer keşfi ve yorum sistemiyle ders projesi için güçlü ve kapsamlı bir uygulamadır. Özellikle dünya haritası bölümü, projenin görsel olarak en dikkat çekici tarafıdır. Kullanıcı ülke seçip il/bölge düzeyinde detay görebildiği için uygulama sadece form ekranlarından oluşmaz; keşif hissi veren gerçek bir seyahat planlama deneyimi sunar.
+
+Hazırlayan:
+E.Hira YAĞMUR

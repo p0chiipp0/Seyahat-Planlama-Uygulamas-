@@ -1,0 +1,14 @@
+[
+  {
+    "ad": "Hira",
+    "soyad": "Yağmur",
+    "email": "hira@gmail.com",
+    "password_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+  },
+  {
+    "ad": "test",
+    "soyad": "kullanıcı",
+    "email": "test@gmail.com",
+    "password_hash": "8d23cf6c86e834a7aa6eded54c26ce2bb2e74903538c61bdd5d2197997ab2f72"
+  }
+]

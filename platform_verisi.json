@@ -1,0 +1,1425 @@
+{
+  "seyahatler": [
+    {
+      "seyahat_id": "S001",
+      "baslik": "Roma - Paris Avrupa Rotası",
+      "baslangic": "Roma",
+      "bitis": "Paris",
+      "tarih": "2026-06-15",
+      "butce": 35000,
+      "tip": "Kültür",
+      "durum": "Yaklaşıyor",
+      "duraklar": [
+        {
+          "sehir": "Floransa",
+          "gun": "1",
+          "yerler": "Duomo, Uffizi",
+          "harcama": "4500",
+          "not": "Müze bileti önceden alınacak"
+        },
+        {
+          "sehir": "Milano",
+          "gun": "2",
+          "yerler": "Duomo, Navigli",
+          "harcama": "5200",
+          "not": "Tren saatleri kontrol edilecek"
+        },
+        {
+          "sehir": "Lyon",
+          "gun": "1",
+          "yerler": "Eski şehir, nehir kıyısı",
+          "harcama": "3000",
+          "not": "Kısa mola şehri"
+        }
+      ]
+    },
+    {
+      "seyahat_id": "S002",
+      "baslik": "Kapadokya Balon Turu",
+      "baslangic": "İstanbul",
+      "bitis": "Kapadokya",
+      "tarih": "2026-07-02",
+      "butce": 12000,
+      "tip": "Doğa",
+      "durum": "Planlanıyor",
+      "duraklar": [
+        {
+          "sehir": "Ankara",
+          "gun": "1",
+          "yerler": "Anıtkabir",
+          "harcama": "1500",
+          "not": "Kısa mola"
+        },
+        {
+          "sehir": "Nevşehir",
+          "gun": "3",
+          "yerler": "Göreme, Uçhisar, Balon turu",
+          "harcama": "7000",
+          "not": "Balon turu sabah erken"
+        }
+      ]
+    },
+    {
+      "seyahat_id": "S003",
+      "baslik": "Ege Kıyıları Yaz Planı",
+      "baslangic": "İzmir",
+      "bitis": "Bodrum",
+      "tarih": "2026-08-10",
+      "butce": 18000,
+      "tip": "Deniz",
+      "durum": "Planlanıyor",
+      "duraklar": [
+        {
+          "sehir": "Çeşme",
+          "gun": "2",
+          "yerler": "Alaçatı, Ilıca",
+          "harcama": "5000",
+          "not": "Plaj çantası hazırlanacak"
+        },
+        {
+          "sehir": "Kuşadası",
+          "gun": "1",
+          "yerler": "Efes, sahil",
+          "harcama": "3500",
+          "not": "Müze kart kontrol"
+        },
+        {
+          "sehir": "Marmaris",
+          "gun": "2",
+          "yerler": "Tekne turu",
+          "harcama": "6000",
+          "not": "Rezervasyon gerekli"
+        }
+      ]
+    }
+  ],
+  "planlar": [
+    {
+      "plan_id": "P001",
+      "gun": "1. Gün",
+      "saat": "09:30",
+      "aktivite": "Kolezyum Gezisi",
+      "not": "Biletleri önceden kontrol et."
+    },
+    {
+      "plan_id": "P002",
+      "gun": "1. Gün",
+      "saat": "14:00",
+      "aktivite": "Roma Sokak Turu",
+      "not": "Fotoğraf noktalarını işaretle."
+    },
+    {
+      "plan_id": "P003",
+      "gun": "2. Gün",
+      "saat": "11:00",
+      "aktivite": "Trenle Milano'ya geçiş",
+      "not": "Bilet QR kodunu hazır tut."
+    },
+    {
+      "plan_id": "P004",
+      "gun": "3. Gün",
+      "saat": "10:00",
+      "aktivite": "Louvre çevresi keşfi",
+      "not": "Müze giriş saatini kontrol et."
+    }
+  ],
+  "butce": [
+    {
+      "kategori": "Konaklama",
+      "tutar": 9000,
+      "not": "3 gecelik otel rezervasyonu"
+    },
+    {
+      "kategori": "Ulaşım",
+      "tutar": 6500,
+      "not": "Uçak ve tren biletleri"
+    },
+    {
+      "kategori": "Yemek",
+      "tutar": 4200,
+      "not": "Günlük restoran bütçesi"
+    },
+    {
+      "kategori": "Müze",
+      "tutar": 2600,
+      "not": "Müze ve etkinlik biletleri"
+    },
+    {
+      "kategori": "Alışveriş",
+      "tutar": 3000,
+      "not": "Hediyelik ve kişisel harcama"
+    }
+  ],
+  "rezervasyonlar": [
+    {
+      "rezervasyon_id": "R001",
+      "tur": "Otel",
+      "ad": "Roma Merkez Otel",
+      "tarih": "2026-06-15",
+      "durum": "Onaylandı"
+    },
+    {
+      "rezervasyon_id": "R002",
+      "tur": "Uçak",
+      "ad": "İstanbul - Roma",
+      "tarih": "2026-06-15",
+      "durum": "Onaylandı"
+    },
+    {
+      "rezervasyon_id": "R003",
+      "tur": "Restoran",
+      "ad": "Trastevere Akşam Yemeği",
+      "tarih": "2026-06-16",
+      "durum": "Beklemede"
+    },
+    {
+      "rezervasyon_id": "R004",
+      "tur": "Müze",
+      "ad": "Louvre Giriş Bileti",
+      "tarih": "2026-06-19",
+      "durum": "Ödeme Gerekli"
+    }
+  ],
+  "gunlukler": [
+    {
+      "baslik": "Roma'da İlk Gün",
+      "konum": "Roma",
+      "duygu": "Heyecanlı",
+      "puan": "5",
+      "foto": "Kolezyum önünde fotoğraf",
+      "metin": "Kolezyum çevresinde yürüyüş yaptım. Tarihi sokaklar ve meydanlar gezi planına çok güzel bir başlangıç oldu.",
+      "tavsiye": "Biletleri önceden almak zaman kazandırıyor."
+    },
+    {
+      "baslik": "Milano Kahve Molası",
+      "konum": "Milano",
+      "duygu": "Keyifli",
+      "puan": "4",
+      "foto": "Duomo meydanı",
+      "metin": "Duomo çevresinde kısa bir mola verdim. Kafeler ve meydan atmosferi yolculuk günlüğüne eklendi.",
+      "tavsiye": "Navigli akşam saatlerinde daha güzel."
+    },
+    {
+      "baslik": "Paris Akşam Işıkları",
+      "konum": "Paris",
+      "duygu": "Mutlu",
+      "puan": "5",
+      "foto": "Seine nehri",
+      "metin": "Seine nehri çevresinde akşam yürüyüşü yaptım. Rota planının en keyifli bölümlerinden biri oldu.",
+      "tavsiye": "Akşam yürüyüşü için rahat ayakkabı şart."
+    }
+  ],
+  "valiz": [
+    {
+      "ad": "Pasaport",
+      "kategori": "Belge",
+      "durum": "Hazır"
+    },
+    {
+      "ad": "Şarj aleti",
+      "kategori": "Elektronik",
+      "durum": "Hazır"
+    },
+    {
+      "ad": "Diş fırçası",
+      "kategori": "Kişisel",
+      "durum": "Hazırlanacak"
+    },
+    {
+      "ad": "Yağmurluk",
+      "kategori": "Kıyafet",
+      "durum": "Hazırlanacak"
+    }
+  ],
+  "belgeler": [
+    {
+      "ad": "Uçak Bileti",
+      "tur": "Bilet",
+      "link": "https://www.turkishairlines.com"
+    },
+    {
+      "ad": "Otel Rezervasyonu",
+      "tur": "Konaklama",
+      "link": "https://www.booking.com"
+    },
+    {
+      "ad": "Seyahat Sigortası",
+      "tur": "Sigorta",
+      "link": "https://www.sigortam.net"
+    }
+  ],
+  "acil": [
+    {
+      "baslik": "Acil Kişi",
+      "bilgi": "+90 555 000 00 00",
+      "not": "Aile iletişim numarası"
+    },
+    {
+      "baslik": "Otel Adresi",
+      "bilgi": "Roma Merkez Otel",
+      "not": "Check-in 14:00"
+    },
+    {
+      "baslik": "Konsolosluk",
+      "bilgi": "+39 06 0000 0000",
+      "not": "Yurt dışı acil durum"
+    }
+  ],
+  "arkadaslar": [
+    {
+      "ad": "Hira Yağmur",
+      "telefon": "+90 555 111 22 33",
+      "rol": "Planlayıcı",
+      "gorev": "Rota ve günlük plan"
+    },
+    {
+      "ad": "Taha Karaman",
+      "telefon": "+90 555 444 55 66",
+      "rol": "Gezgin",
+      "gorev": "Bütçe ve rezervasyon"
+    },
+    {
+      "ad": "Eren Öztürk",
+      "telefon": "+90 555 777 88 99",
+      "rol": "Fotoğrafçı",
+      "gorev": "Günlük ve fotoğraf notları"
+    }
+  ],
+  "checklist": [
+    {
+      "madde": "Pasaport kontrol edildi",
+      "durum": "Tamamlandı"
+    },
+    {
+      "madde": "Otel rezervasyonu yapıldı",
+      "durum": "Tamamlandı"
+    },
+    {
+      "madde": "Döviz alındı",
+      "durum": "Bekliyor"
+    },
+    {
+      "madde": "Bavul hazırlandı",
+      "durum": "Bekliyor"
+    }
+  ],
+  "hatirlaticilar": [
+    {
+      "baslik": "Uçuş",
+      "tarih": "2026-06-15",
+      "not": "Havalimanına 3 saat erken git."
+    },
+    {
+      "baslik": "Otel giriş",
+      "tarih": "2026-06-15",
+      "not": "Check-in 14:00"
+    },
+    {
+      "baslik": "Louvre bileti",
+      "tarih": "2026-06-19",
+      "not": "QR bileti hazır tut."
+    }
+  ],
+  "kullanicilar": [
+    {
+      "id": "U001",
+      "ad": "Elif",
+      "soyad": "Yılmaz",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "elif.yilmaz",
+      "email": "elif.yilmaz@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Planlayıcı",
+      "puan": 60
+    },
+    {
+      "id": "U002",
+      "ad": "Zeynep",
+      "soyad": "Öztürk",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "zeynep.ozturk",
+      "email": "zeynep.ozturk@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 63
+    },
+    {
+      "id": "U003",
+      "ad": "Hira",
+      "soyad": "Çetin",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "hira.cetin",
+      "email": "hira.cetin@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 66
+    },
+    {
+      "id": "U004",
+      "ad": "Yağmur",
+      "soyad": "Güneş",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "yagmur.gunes",
+      "email": "yagmur.gunes@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 69
+    },
+    {
+      "id": "U005",
+      "ad": "Ece",
+      "soyad": "Karaman",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "ece.karaman",
+      "email": "ece.karaman@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 72
+    },
+    {
+      "id": "U006",
+      "ad": "Defne",
+      "soyad": "Yıldız",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "defne.yildiz",
+      "email": "defne.yildiz@routify.local",
+      "sehir": "Konya",
+      "rol": "Planlayıcı",
+      "puan": 75
+    },
+    {
+      "id": "U007",
+      "ad": "İrem",
+      "soyad": "Kılıç",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "i̇rem.kilic",
+      "email": "i̇rem.kilic@routify.local",
+      "sehir": "Adana",
+      "rol": "Gezgin",
+      "puan": 78
+    },
+    {
+      "id": "U008",
+      "ad": "Duru",
+      "soyad": "Şimşek",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "duru.simsek",
+      "email": "duru.simsek@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 81
+    },
+    {
+      "id": "U009",
+      "ad": "Azra",
+      "soyad": "Taş",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "azra.tas",
+      "email": "azra.tas@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Gezgin",
+      "puan": 84
+    },
+    {
+      "id": "U010",
+      "ad": "Nisa",
+      "soyad": "Çelik",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "nisa.celik",
+      "email": "nisa.celik@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 87
+    },
+    {
+      "id": "U011",
+      "ad": "Mina",
+      "soyad": "Arslan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "mina.arslan",
+      "email": "mina.arslan@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Planlayıcı",
+      "puan": 90
+    },
+    {
+      "id": "U012",
+      "ad": "Selin",
+      "soyad": "Kurt",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "selin.kurt",
+      "email": "selin.kurt@routify.local",
+      "sehir": "Samsun",
+      "rol": "Gezgin",
+      "puan": 93
+    },
+    {
+      "id": "U013",
+      "ad": "Buse",
+      "soyad": "Bozkurt",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "buse.bozkurt",
+      "email": "buse.bozkurt@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 96
+    },
+    {
+      "id": "U014",
+      "ad": "Esra",
+      "soyad": "Kaya",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "esra.kaya",
+      "email": "esra.kaya@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 99
+    },
+    {
+      "id": "U015",
+      "ad": "Merve",
+      "soyad": "Aydın",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "merve.aydin",
+      "email": "merve.aydin@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 61
+    },
+    {
+      "id": "U016",
+      "ad": "Sude",
+      "soyad": "Kara",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "sude.kara",
+      "email": "sude.kara@routify.local",
+      "sehir": "Bursa",
+      "rol": "Planlayıcı",
+      "puan": 64
+    },
+    {
+      "id": "U017",
+      "ad": "Melis",
+      "soyad": "Tekin",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "melis.tekin",
+      "email": "melis.tekin@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 67
+    },
+    {
+      "id": "U018",
+      "ad": "Ceren",
+      "soyad": "Avcı",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "ceren.avci",
+      "email": "ceren.avci@routify.local",
+      "sehir": "Konya",
+      "rol": "Gezgin",
+      "puan": 70
+    },
+    {
+      "id": "U019",
+      "ad": "İlayda",
+      "soyad": "Yıldırım",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "i̇layda.yildirim",
+      "email": "i̇layda.yildirim@routify.local",
+      "sehir": "Adana",
+      "rol": "Gezgin",
+      "puan": 73
+    },
+    {
+      "id": "U020",
+      "ad": "Nehir",
+      "soyad": "Aslan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "nehir.aslan",
+      "email": "nehir.aslan@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 76
+    },
+    {
+      "id": "U021",
+      "ad": "Asya",
+      "soyad": "Polat",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "asya.polat",
+      "email": "asya.polat@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Planlayıcı",
+      "puan": 79
+    },
+    {
+      "id": "U022",
+      "ad": "Derin",
+      "soyad": "Uçar",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "derin.ucar",
+      "email": "derin.ucar@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 82
+    },
+    {
+      "id": "U023",
+      "ad": "Gizem",
+      "soyad": "Şahin",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "gizem.sahin",
+      "email": "gizem.sahin@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Gezgin",
+      "puan": 85
+    },
+    {
+      "id": "U024",
+      "ad": "Beyza",
+      "soyad": "Doğan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "beyza.dogan",
+      "email": "beyza.dogan@routify.local",
+      "sehir": "Samsun",
+      "rol": "Gezgin",
+      "puan": 88
+    },
+    {
+      "id": "U025",
+      "ad": "Sıla",
+      "soyad": "Özkan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "sila.ozkan",
+      "email": "sila.ozkan@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 91
+    },
+    {
+      "id": "U026",
+      "ad": "Rabia",
+      "soyad": "Aksoy",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "rabia.aksoy",
+      "email": "rabia.aksoy@routify.local",
+      "sehir": "Ankara",
+      "rol": "Planlayıcı",
+      "puan": 94
+    },
+    {
+      "id": "U027",
+      "ad": "Tuana",
+      "soyad": "Demir",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "tuana.demir",
+      "email": "tuana.demir@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 97
+    },
+    {
+      "id": "U028",
+      "ad": "Eylül",
+      "soyad": "Özdemir",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "eylul.ozdemir",
+      "email": "eylul.ozdemir@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 100
+    },
+    {
+      "id": "U029",
+      "ad": "Naz",
+      "soyad": "Koç",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "naz.koc",
+      "email": "naz.koc@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 62
+    },
+    {
+      "id": "U030",
+      "ad": "Ada",
+      "soyad": "Erdoğan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "ada.erdogan",
+      "email": "ada.erdogan@routify.local",
+      "sehir": "Konya",
+      "rol": "Gezgin",
+      "puan": 65
+    },
+    {
+      "id": "U031",
+      "ad": "Elif",
+      "soyad": "Kaya",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "elif.kaya",
+      "email": "elif.kaya@routify.local",
+      "sehir": "Adana",
+      "rol": "Planlayıcı",
+      "puan": 68
+    },
+    {
+      "id": "U032",
+      "ad": "Zeynep",
+      "soyad": "Aydın",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "zeynep.aydin",
+      "email": "zeynep.aydin@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 71
+    },
+    {
+      "id": "U033",
+      "ad": "Hira",
+      "soyad": "Kara",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "hira.kara",
+      "email": "hira.kara@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Gezgin",
+      "puan": 74
+    },
+    {
+      "id": "U034",
+      "ad": "Yağmur",
+      "soyad": "Tekin",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "yagmur.tekin",
+      "email": "yagmur.tekin@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 77
+    },
+    {
+      "id": "U035",
+      "ad": "Ece",
+      "soyad": "Avcı",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "ece.avci",
+      "email": "ece.avci@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Gezgin",
+      "puan": 80
+    },
+    {
+      "id": "U036",
+      "ad": "Defne",
+      "soyad": "Yıldırım",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "defne.yildirim",
+      "email": "defne.yildirim@routify.local",
+      "sehir": "Samsun",
+      "rol": "Planlayıcı",
+      "puan": 83
+    },
+    {
+      "id": "U037",
+      "ad": "İrem",
+      "soyad": "Aslan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "i̇rem.aslan",
+      "email": "i̇rem.aslan@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 86
+    },
+    {
+      "id": "U038",
+      "ad": "Duru",
+      "soyad": "Polat",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "duru.polat",
+      "email": "duru.polat@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 89
+    },
+    {
+      "id": "U039",
+      "ad": "Azra",
+      "soyad": "Uçar",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "azra.ucar",
+      "email": "azra.ucar@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 92
+    },
+    {
+      "id": "U040",
+      "ad": "Nisa",
+      "soyad": "Şahin",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "nisa.sahin",
+      "email": "nisa.sahin@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 95
+    },
+    {
+      "id": "U041",
+      "ad": "Mina",
+      "soyad": "Doğan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "mina.dogan",
+      "email": "mina.dogan@routify.local",
+      "sehir": "Antalya",
+      "rol": "Planlayıcı",
+      "puan": 98
+    },
+    {
+      "id": "U042",
+      "ad": "Selin",
+      "soyad": "Özkan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "selin.ozkan",
+      "email": "selin.ozkan@routify.local",
+      "sehir": "Konya",
+      "rol": "Gezgin",
+      "puan": 60
+    },
+    {
+      "id": "U043",
+      "ad": "Buse",
+      "soyad": "Aksoy",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "buse.aksoy",
+      "email": "buse.aksoy@routify.local",
+      "sehir": "Adana",
+      "rol": "Gezgin",
+      "puan": 63
+    },
+    {
+      "id": "U044",
+      "ad": "Esra",
+      "soyad": "Demir",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "esra.demir",
+      "email": "esra.demir@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 66
+    },
+    {
+      "id": "U045",
+      "ad": "Merve",
+      "soyad": "Özdemir",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "merve.ozdemir",
+      "email": "merve.ozdemir@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Gezgin",
+      "puan": 69
+    },
+    {
+      "id": "U046",
+      "ad": "Sude",
+      "soyad": "Koç",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "sude.koc",
+      "email": "sude.koc@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Planlayıcı",
+      "puan": 72
+    },
+    {
+      "id": "U047",
+      "ad": "Melis",
+      "soyad": "Erdoğan",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "melis.erdogan",
+      "email": "melis.erdogan@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Gezgin",
+      "puan": 75
+    },
+    {
+      "id": "U048",
+      "ad": "Ceren",
+      "soyad": "Yılmaz",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "ceren.yilmaz",
+      "email": "ceren.yilmaz@routify.local",
+      "sehir": "Samsun",
+      "rol": "Gezgin",
+      "puan": 78
+    },
+    {
+      "id": "U049",
+      "ad": "İlayda",
+      "soyad": "Öztürk",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "i̇layda.ozturk",
+      "email": "i̇layda.ozturk@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 81
+    },
+    {
+      "id": "U050",
+      "ad": "Nehir",
+      "soyad": "Çetin",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "nehir.cetin",
+      "email": "nehir.cetin@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 84
+    },
+    {
+      "id": "U051",
+      "ad": "Asya",
+      "soyad": "Güneş",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "asya.gunes",
+      "email": "asya.gunes@routify.local",
+      "sehir": "İzmir",
+      "rol": "Planlayıcı",
+      "puan": 87
+    },
+    {
+      "id": "U052",
+      "ad": "Derin",
+      "soyad": "Karaman",
+      "cinsiyet": "Kadın",
+      "kullanici_adi": "derin.karaman",
+      "email": "derin.karaman@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 90
+    },
+    {
+      "id": "U053",
+      "ad": "Emir",
+      "soyad": "Şahin",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "emir.sahin",
+      "email": "emir.sahin@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 93
+    },
+    {
+      "id": "U054",
+      "ad": "Taha",
+      "soyad": "Doğan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "taha.dogan",
+      "email": "taha.dogan@routify.local",
+      "sehir": "Konya",
+      "rol": "Gezgin",
+      "puan": 96
+    },
+    {
+      "id": "U055",
+      "ad": "Kerem",
+      "soyad": "Özkan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "kerem.ozkan",
+      "email": "kerem.ozkan@routify.local",
+      "sehir": "Adana",
+      "rol": "Gezgin",
+      "puan": 99
+    },
+    {
+      "id": "U056",
+      "ad": "Efe",
+      "soyad": "Aksoy",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "efe.aksoy",
+      "email": "efe.aksoy@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Planlayıcı",
+      "puan": 61
+    },
+    {
+      "id": "U057",
+      "ad": "Mert",
+      "soyad": "Demir",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "mert.demir",
+      "email": "mert.demir@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Gezgin",
+      "puan": 64
+    },
+    {
+      "id": "U058",
+      "ad": "Arda",
+      "soyad": "Özdemir",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "arda.ozdemir",
+      "email": "arda.ozdemir@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 67
+    },
+    {
+      "id": "U059",
+      "ad": "Yusuf",
+      "soyad": "Koç",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "yusuf.koc",
+      "email": "yusuf.koc@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Gezgin",
+      "puan": 70
+    },
+    {
+      "id": "U060",
+      "ad": "Kaan",
+      "soyad": "Erdoğan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "kaan.erdogan",
+      "email": "kaan.erdogan@routify.local",
+      "sehir": "Samsun",
+      "rol": "Gezgin",
+      "puan": 73
+    },
+    {
+      "id": "U061",
+      "ad": "Berk",
+      "soyad": "Yılmaz",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "berk.yilmaz",
+      "email": "berk.yilmaz@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Planlayıcı",
+      "puan": 76
+    },
+    {
+      "id": "U062",
+      "ad": "Deniz",
+      "soyad": "Öztürk",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "deniz.ozturk",
+      "email": "deniz.ozturk@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 79
+    },
+    {
+      "id": "U063",
+      "ad": "Umut",
+      "soyad": "Çetin",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "umut.cetin",
+      "email": "umut.cetin@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 82
+    },
+    {
+      "id": "U064",
+      "ad": "Can",
+      "soyad": "Güneş",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "can.gunes",
+      "email": "can.gunes@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 85
+    },
+    {
+      "id": "U065",
+      "ad": "Ali",
+      "soyad": "Karaman",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "ali.karaman",
+      "email": "ali.karaman@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 88
+    },
+    {
+      "id": "U066",
+      "ad": "Mehmet",
+      "soyad": "Yıldız",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "mehmet.yildiz",
+      "email": "mehmet.yildiz@routify.local",
+      "sehir": "Konya",
+      "rol": "Planlayıcı",
+      "puan": 91
+    },
+    {
+      "id": "U067",
+      "ad": "Ahmet",
+      "soyad": "Kılıç",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "ahmet.kilic",
+      "email": "ahmet.kilic@routify.local",
+      "sehir": "Adana",
+      "rol": "Gezgin",
+      "puan": 94
+    },
+    {
+      "id": "U068",
+      "ad": "Burak",
+      "soyad": "Şimşek",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "burak.simsek",
+      "email": "burak.simsek@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 97
+    },
+    {
+      "id": "U069",
+      "ad": "Enes",
+      "soyad": "Taş",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "enes.tas",
+      "email": "enes.tas@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Gezgin",
+      "puan": 100
+    },
+    {
+      "id": "U070",
+      "ad": "Furkan",
+      "soyad": "Çelik",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "furkan.celik",
+      "email": "furkan.celik@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 62
+    },
+    {
+      "id": "U071",
+      "ad": "Oğuz",
+      "soyad": "Arslan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "oguz.arslan",
+      "email": "oguz.arslan@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Planlayıcı",
+      "puan": 65
+    },
+    {
+      "id": "U072",
+      "ad": "Eren",
+      "soyad": "Kurt",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "eren.kurt",
+      "email": "eren.kurt@routify.local",
+      "sehir": "Samsun",
+      "rol": "Gezgin",
+      "puan": 68
+    },
+    {
+      "id": "U073",
+      "ad": "Yiğit",
+      "soyad": "Bozkurt",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "yigit.bozkurt",
+      "email": "yigit.bozkurt@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 71
+    },
+    {
+      "id": "U074",
+      "ad": "Murat",
+      "soyad": "Kaya",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "murat.kaya",
+      "email": "murat.kaya@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 74
+    },
+    {
+      "id": "U075",
+      "ad": "Emre",
+      "soyad": "Aydın",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "emre.aydin",
+      "email": "emre.aydin@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 77
+    },
+    {
+      "id": "U076",
+      "ad": "Kuzey",
+      "soyad": "Kara",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "kuzey.kara",
+      "email": "kuzey.kara@routify.local",
+      "sehir": "Bursa",
+      "rol": "Planlayıcı",
+      "puan": 80
+    },
+    {
+      "id": "U077",
+      "ad": "Baran",
+      "soyad": "Tekin",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "baran.tekin",
+      "email": "baran.tekin@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 83
+    },
+    {
+      "id": "U078",
+      "ad": "Onur",
+      "soyad": "Avcı",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "onur.avci",
+      "email": "onur.avci@routify.local",
+      "sehir": "Konya",
+      "rol": "Gezgin",
+      "puan": 86
+    },
+    {
+      "id": "U079",
+      "ad": "Serkan",
+      "soyad": "Yıldırım",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "serkan.yildirim",
+      "email": "serkan.yildirim@routify.local",
+      "sehir": "Adana",
+      "rol": "Gezgin",
+      "puan": 89
+    },
+    {
+      "id": "U080",
+      "ad": "Tolga",
+      "soyad": "Aslan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "tolga.aslan",
+      "email": "tolga.aslan@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 92
+    },
+    {
+      "id": "U081",
+      "ad": "Hakan",
+      "soyad": "Polat",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "hakan.polat",
+      "email": "hakan.polat@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Planlayıcı",
+      "puan": 95
+    },
+    {
+      "id": "U082",
+      "ad": "Alp",
+      "soyad": "Uçar",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "alp.ucar",
+      "email": "alp.ucar@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 98
+    },
+    {
+      "id": "U083",
+      "ad": "Emir",
+      "soyad": "Yıldız",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "emir.yildiz",
+      "email": "emir.yildiz@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Gezgin",
+      "puan": 60
+    },
+    {
+      "id": "U084",
+      "ad": "Taha",
+      "soyad": "Kılıç",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "taha.kilic",
+      "email": "taha.kilic@routify.local",
+      "sehir": "Samsun",
+      "rol": "Gezgin",
+      "puan": 63
+    },
+    {
+      "id": "U085",
+      "ad": "Kerem",
+      "soyad": "Şimşek",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "kerem.simsek",
+      "email": "kerem.simsek@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 66
+    },
+    {
+      "id": "U086",
+      "ad": "Efe",
+      "soyad": "Taş",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "efe.tas",
+      "email": "efe.tas@routify.local",
+      "sehir": "Ankara",
+      "rol": "Planlayıcı",
+      "puan": 69
+    },
+    {
+      "id": "U087",
+      "ad": "Mert",
+      "soyad": "Çelik",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "mert.celik",
+      "email": "mert.celik@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 72
+    },
+    {
+      "id": "U088",
+      "ad": "Arda",
+      "soyad": "Arslan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "arda.arslan",
+      "email": "arda.arslan@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 75
+    },
+    {
+      "id": "U089",
+      "ad": "Yusuf",
+      "soyad": "Kurt",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "yusuf.kurt",
+      "email": "yusuf.kurt@routify.local",
+      "sehir": "Antalya",
+      "rol": "Gezgin",
+      "puan": 78
+    },
+    {
+      "id": "U090",
+      "ad": "Kaan",
+      "soyad": "Bozkurt",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "kaan.bozkurt",
+      "email": "kaan.bozkurt@routify.local",
+      "sehir": "Konya",
+      "rol": "Gezgin",
+      "puan": 81
+    },
+    {
+      "id": "U091",
+      "ad": "Berk",
+      "soyad": "Kaya",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "berk.kaya",
+      "email": "berk.kaya@routify.local",
+      "sehir": "Adana",
+      "rol": "Planlayıcı",
+      "puan": 84
+    },
+    {
+      "id": "U092",
+      "ad": "Deniz",
+      "soyad": "Aydın",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "deniz.aydin",
+      "email": "deniz.aydin@routify.local",
+      "sehir": "Eskişehir",
+      "rol": "Gezgin",
+      "puan": 87
+    },
+    {
+      "id": "U093",
+      "ad": "Umut",
+      "soyad": "Kara",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "umut.kara",
+      "email": "umut.kara@routify.local",
+      "sehir": "Trabzon",
+      "rol": "Gezgin",
+      "puan": 90
+    },
+    {
+      "id": "U094",
+      "ad": "Can",
+      "soyad": "Tekin",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "can.tekin",
+      "email": "can.tekin@routify.local",
+      "sehir": "Gaziantep",
+      "rol": "Gezgin",
+      "puan": 93
+    },
+    {
+      "id": "U095",
+      "ad": "Ali",
+      "soyad": "Avcı",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "ali.avci",
+      "email": "ali.avci@routify.local",
+      "sehir": "Kayseri",
+      "rol": "Gezgin",
+      "puan": 96
+    },
+    {
+      "id": "U096",
+      "ad": "Mehmet",
+      "soyad": "Yıldırım",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "mehmet.yildirim",
+      "email": "mehmet.yildirim@routify.local",
+      "sehir": "Samsun",
+      "rol": "Planlayıcı",
+      "puan": 99
+    },
+    {
+      "id": "U097",
+      "ad": "Ahmet",
+      "soyad": "Aslan",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "ahmet.aslan",
+      "email": "ahmet.aslan@routify.local",
+      "sehir": "İstanbul",
+      "rol": "Gezgin",
+      "puan": 61
+    },
+    {
+      "id": "U098",
+      "ad": "Burak",
+      "soyad": "Polat",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "burak.polat",
+      "email": "burak.polat@routify.local",
+      "sehir": "Ankara",
+      "rol": "Gezgin",
+      "puan": 64
+    },
+    {
+      "id": "U099",
+      "ad": "Enes",
+      "soyad": "Uçar",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "enes.ucar",
+      "email": "enes.ucar@routify.local",
+      "sehir": "İzmir",
+      "rol": "Gezgin",
+      "puan": 67
+    },
+    {
+      "id": "U100",
+      "ad": "Furkan",
+      "soyad": "Şahin",
+      "cinsiyet": "Erkek",
+      "kullanici_adi": "furkan.sahin",
+      "email": "furkan.sahin@routify.local",
+      "sehir": "Bursa",
+      "rol": "Gezgin",
+      "puan": 70
+    }
+  ]
+}
